@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
         *{
@@ -20,13 +20,12 @@
             text-align: center;
         }
         main{
-            background-image:url("23.png") ;
+            background-image: url(god.jpg);
             background-size: cover;
             visibility: inherit;
             height: 2000px;
             text-align: center;
             padding-top: 3%;
-            color: white;
 
         }
         .footer{
@@ -36,13 +35,14 @@
             color:aliceblue
         }
     </style>
+
 </head>
 <body>
     <header>
         <p id="heading"><h2>Novice Sketcher</h2></p>
         <ul>
          <li>
-             <a href="index.html" style="text-decoration: none;">
+             <a href="index.html">
              Home</a>
             </li>
         <li>
@@ -54,20 +54,24 @@
         </li>
  
      </ul>
-    </header>
-    <div class="main">
-        <main>
-            <p>
-                <img src="icon.jpg" height="200px">
-                <p id='Demo'><video  src="7gRx.mp4" autoplay="true" loop="true" height="300px"></p>
-                <h1><i>Welcome to my art gallery,I hope you will enjoy it</i></h1
-              </p> 
+     </header>
+       <div class="main">
+         <main>
+             <button type="button" onclick="document.getElementById('demo').src='budh.jpg'">Image1</button>
+             <button type="button" onclick="document.getElementById('demo').src='girl.jpg'">Image2</button>
+             <button type="button" onclick="document.getElementById('demo').src='guitar.jpg'">Image3</button>
+             <br>
+             <br>
+             <br>
+             <p><img id="demo" ></p>
             
-        </main>
-     </div>
-     
-     <div class="footer">
-        <p><h3>All right reserve to NOVICE SKETCHER &copy 2023</h3></p>
+
+         </main>
       </div>
+      
+      <div class="footer">
+         <p><h3>All right reserve to NOVICE SKETCHER &copy 2023</h3></p>
+       </div>
+    
 </body>
 </html>
